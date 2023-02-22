@@ -1,0 +1,15 @@
+---
+pool: 
+  name: Azure pipeline
+  vmImages: ubuntu-latest
+
+trigger:
+  - main:
+
+
+parameters:
+- name: java 
+  displayname: 'ubuntu-latest'
+  type: string
+  default: 
+ 
